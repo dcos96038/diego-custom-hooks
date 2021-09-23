@@ -27,8 +27,6 @@ export const useFetch = (url) => {
             error: null,
             data: data,
           });
-        } else {
-          console.log("No se llamo");
         }
       });
   }, [url]);
