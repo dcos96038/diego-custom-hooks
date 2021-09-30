@@ -8,5 +8,5 @@ Ejemplo de uso:
     name: 'Diego',
     email: 'diegocoscolla@gmail.com',
   };
-  const [formValue, setValue] = useForm(initialForm);
+  const [formValue, handleInputChange, reset] = useForm(initialForm);
 ```
